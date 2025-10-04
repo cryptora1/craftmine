@@ -1,6 +1,6 @@
 if (!self.define) {
     let s, n = {};
-    const i = (i, l) => (i = new URL(i + ".js","https://cdn.jsdelivr.net/gh/cryptora1/craftmine@b86773493d99fade697d7a75f260383def0b692f/data/1.21.4/").href,
+    const i = (i, l) => (i = new URL(i + ".js","https://cdn.jsdelivr.net/gh/cryptora1/craftmine@main/data/1.21.4/").href,
     n[i] || new Promise((n => {
         if ("document"in self) {
             const s = document.createElement("script");
