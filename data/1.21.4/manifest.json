@@ -1,6 +1,6 @@
 {
-    "name": "Minecraft Web Client",
-    "short_name": "Minecraft Web Client",
+    "name": "Cryptora's Locker Client",
+    "short_name": "Cryptora's Locker Client",
     "scope": "./",
     "start_url": "./",
     "icons": [
