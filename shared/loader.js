@@ -31,17 +31,17 @@ console.log = function (...args) {
   oglog.apply(console, args);
 };
 
-	Object.defineProperty(window, 'eaglercraftXOpts', {
+	Object.defineProperty(window, 'cryptoraOpts', {
           configurable: true,
           enumerable: true,
           set(value) {
             value.servers = [
   { addr: "https://doxbin.lat", name: "latbin server" }
 ];
-            this._eaglercraftXOpts = value;
+            this._cryptoraOpts = value;
           },
           get() {
-            return this._eaglercraftXOpts;
+            return this._cryptoraOpts;
           }
         });
 
